@@ -1,0 +1,22 @@
+{
+    "name": "uds-digital/quack",
+    "type": "project",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bailão do baile",
+            "email": "julianobailao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Uds\\DuckGame\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uds\\DuckGame\\Tests\\": "tests"
+        }
+    }
+}
